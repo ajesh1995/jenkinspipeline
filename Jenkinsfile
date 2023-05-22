@@ -1,5 +1,9 @@
 pipeline {
-    agent any 
+    agent any
+  parameters {
+  choice choices: ['dev', 'prod', 'sit'], description: 'select environment', name: 'ENV'
+}
+
     stages {
         stage ("welcome") {
             steps {
