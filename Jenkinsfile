@@ -1,7 +1,7 @@
 pipeline {
-    agent any
+    agent any 
     stages {
-        stage ("welocme to jenkins"){
+        stage ("welcome") {
             steps {
                 script {
                     println "iam ajesh narra"
