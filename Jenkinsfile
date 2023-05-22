@@ -13,7 +13,7 @@ pipeline {
                     println "WORKSPACE is ${WORKSPACE}"
 
                     // printing the values of parameters
-                    println "selected env is ${}"
+                    println "selected env is ${params.ENV}"
                 }
             }
         }
