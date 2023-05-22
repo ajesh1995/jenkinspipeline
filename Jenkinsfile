@@ -17,6 +17,9 @@ environment {
 
                     // printing the values of parameters
                     println "selected env is ${params.ENV}"
+
+                    // printing the environment variables 
+                    println " my java home path is ${env.JAVA_HOME}"
                 }
             }
         }
