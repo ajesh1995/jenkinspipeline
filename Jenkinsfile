@@ -4,7 +4,7 @@ pipeline {
         stage ("welcome") {
             steps {
                 script {
-                    var1 =20
+                    var1 = input 'please enter a value'
                     println "my var1 value is ${var1}"
                 }
             }
