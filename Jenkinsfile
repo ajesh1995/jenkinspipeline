@@ -4,7 +4,8 @@ pipeline {
         stage ("welcome") {
             steps {
                 script {
-                    println "iam ajesh narra"
+                    var1 =20
+                    println "my var1 value is ${var1}"
                 }
             }
         }
