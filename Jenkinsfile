@@ -3,6 +3,9 @@ pipeline {
   parameters {
   choice choices: ['dev', 'prod', 'sit'], description: 'select environment', name: 'ENV'
 }
+environment {
+  JAVA_HOME = "/usr/bin/java8"
+}
 
     stages {
         stage ("welcome") {
