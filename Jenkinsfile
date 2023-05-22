@@ -1,13 +1,15 @@
 pipeline {
-
+   
+   
     agent any
     stages {
-        stage ("iam ajeshnarra")
-    steps {
-        scripts {
-            println "welocme to my jenkinsautomation"
+        stage ("hi iam ajesh narra") {
+            
         }
-                 
+        steps {
+            script{
+                println "iam jenkins pipeline"
+            }
         }
     }
-    }
+}
